@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-sodimac",
+  "version": "1.0.0",
+  "description": "This is a technical test to Sodimac's page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Nicolas Peredo",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/dot-reporter": "^6.4.7",
+    "@wdio/local-runner": "^6.5.0",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/selenium-standalone-service": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "webdriverio": "^6.5.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.5.0"
+  }
+}
